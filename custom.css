@@ -1,32 +1,189 @@
-body{
-    width: 90%;
+:root {
+    --bgColor: rgb(152, 251, 152, 0.7);
+    --bgImage: url('../images/forest.jpg');
+    --fontFamily: sans-serif;
+    --hoverColor: purple;
+}
+
+/* ID Selectors */
+
+#formFig {
+    text-align: center;
     margin: auto;
+    margin-bottom: 1em;
 }
 
-table, th, td {
-    padding: 5px;
-    border: 1px solid black;
-    border-collapse: collapse;
-}
-
-nav, header {
+#form > p {
     text-align: center;
 }
 
-img {
-    max-width: 30%;
+#about p {
+    line-height: 2;
 }
 
-aside {
-    width: 30%;
-    float: right;
-    background-color: darkcyan;
+#detail section {
+    font-size: large;
+    line-height: 2;
 }
 
-.rightImg{ 
-    float: right; 
+#index p {
+    font-size: large;
+    line-height: 1.75;
+}
+
+#index li {
+    line-height: 3;
+}
+
+/* Class selectors */
+
+.exBottom {
+    padding-bottom: 5em;
+}
+
+.form form {
+    margin: auto;
+}
+
+.form p {
+    text-indent: 0em;
+}
+
+.index ul li:nth-child(odd) {
+    background-color: rgb(255, 165, 0, 0.7);
+}
+
+.index ul li:nth-child(even) {
+    background-color: rgb(255, 255, 0, 0.7);
+}
+
+.index caption {
+    color: red;
+}
+
+.index table {
+    padding: 0.5em;
+    border: 0.3em solid red;
+    border-collapse: collapse;
+    margin: auto;
+}
+
+.index th, td {
+    padding: 1em;
+    border: 0.25em solid black;
+    border-collapse: collapse !important;
+}
+
+.index th {
+    font-variant: small-caps;
+    font-size: large;
+}
+
+.index table tr:nth-child(odd) {
+    background-color: rgb(255, 165, 0, 0.7);
+}
+
+.index table tr:nth-child(even) {
+    background-color: rgb(255, 255, 0, 0.7);
 }
 
 .rightCaption{ 
     text-align: right;
+}
+
+/* Element selectors */
+
+a:hover {
+    color: var(--hoverColor); 
+}
+
+aside {
+    background-color: rgb(46, 139, 87, 0.7);
+    margin-left: -1em;
+    margin-top: 1em;
+}
+
+figure {
+    display: block;
+    text-align: center;
+    padding: 1em;
+    border-radius: 1em;
+    border: 0.125em solid black;
+}
+
+figcaption {
+    font-variant: small-caps;
+    font-family: serif;
+}
+
+fieldset[class] {
+    font-size: large;
+}
+
+fieldset legend {
+    font-weight: bold;
+}
+
+figcaption cite {
+    font-size: x-small;
+}
+
+h1 {
+    font-variant: small-caps;
+}
+
+header, nav, footer {
+    text-align: center;
+}
+
+img {
+    margin: auto;
+    max-width: 100%;
+    border-radius: 1em;
+}
+
+input[type="submit"] {
+    display: inline;
+    text-align: center;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+nav a:link {
+    background-color: #fff;
+    color: #009;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: black; 
+}
+
+nav {
+    border: thin solid yellow;
+    background-color: white;
+}
+
+nav p {
+    font-size: x-large;
+}
+
+p {
+    text-indent: 2em;
+}
+
+table {
+    margin-right: 1em;
+}
+
+html{
+    background-image: var(--bgImage);
+    font-family: var(--fontFamily);
+}
+
+body{
+    background-color: var(--bgColor);
+    padding: 1em;
+    margin: 0em;
+    margin: auto;
 }

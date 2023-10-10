@@ -8,18 +8,25 @@
         information on interest in green energy.">
 
         <link rel="stylesheet" href="css/custom.css?version=<?php print time(); ?>" type="text/css">
+        <link rel="stylesheet" href="css/layout-desktop.css?version=<?php print time(); ?>" type="text/css">
     </head>
 
-    <body> 
+    <body class="form"> 
         <header>
                 <h1>Green Energy Form</h1>
         </header>
 
         <nav>
-            <p>
-                <a href="index.php">Home</a>        
+            <p id="nav-home">
+                <a href="index.php">Home</a>
+            </p>
+            <p id="nav-detail">
                 <a href="detail.php">Nuclear Energy</a>
+            </p>
+            <p id="nav-form">
                 <a href="form.php">Survey</a>
+            </p>
+            <p id="nav-about">
                 <a href="about.php">About</a>
             </p>
         </nav>
@@ -31,7 +38,14 @@
                 print '</pre>';
             ?>
 
-            <form action="#" method="POST">
+            <form action="#" method="POST" id="form">
+                <figure id="formFig">
+                    <img alt="A notebook" src="images/notebook.jpg">
+                    <figcaption>
+                        <cite>Source: Freebie photography</cite>
+                    </figcaption>
+                </figure>
+
                 <fieldset class="personalInfo">
                     <p>
                         <label for="firstName">First name:</label>
@@ -90,11 +104,11 @@
                         <input type="radio" name="radInformed" id="radNotInformed" value="radNotInformed">
                         <label for="radNotInformed">I don't feel more informed.</label> 
                     </p>
-                </fieldset>
 
-                <p>
-                    <input type="submit"> 
-                </p>
+                    <p class="sButton">
+                        <input type="submit"> 
+                    </p>
+                </fieldset>
             </form>
         </main> 
 

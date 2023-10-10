@@ -9,30 +9,39 @@
         its strengths and drawbacks.">
 
         <link rel="stylesheet" href="css/custom.css?version=<?php print time(); ?>" type="text/css">
+        <link rel="stylesheet" href="css/layout-desktop.css?version=<?php print time(); ?>" type="text/css">
     </head>
 
-    <body>
+    <body class="exBottom">
         <header>
             <h1>Nuclear Energy</h1>
         </header>
 
         <nav>
-            <p>
-                <a href="index.php">Home</a>        
+            <p id="nav-home">
+                <a href="index.php">Home</a>
+            </p>
+            <p id="nav-detail">
                 <a href="detail.php">Nuclear Energy</a>
+            </p>
+            <p id="nav-form">
                 <a href="form.php">Survey</a>
+            </p>
+            <p id="nav-about">
                 <a href="about.php">About</a>
             </p>
         </nav>
 
-        <main>
+        <main id="detail">
+            <figure class="limHeight">
+                    <img alt="A nuclear power plant" src="images/nuclearPowerPlant.jpg" class="rightImg">
+                    <figcaption class="rightCaption">
+                        A nuclear power plant in operation <br>
+                        <cite>Source:rawpixel</cite>
+                    </figcaption>
+            </figure>
 
             <section class="about">
-                <figure>
-                    <figcaption class="rightCaption">A nuclear power plant in operation</figcaption>
-                    <img alt="A nuclear power plant" src="images/nuclearPowerPlant.jpg" class="rightImg">
-                </figure>
-
                 <h2>What is nuclear energy?</h2>
                 <p>
                     Nuclear energy is the process by which the energy from nuclear

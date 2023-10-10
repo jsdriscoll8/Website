@@ -10,31 +10,39 @@
             and efficiency comparisons.">
 
         <link rel="stylesheet" href="css/custom.css?version=<?php print time(); ?>" type="text/css">
-
-        <!--TODO: Add some more CSS and better formatting-->
+        <link rel="stylesheet" href="css/layout-desktop.css?version=<?php print time(); ?>" type="text/css">
     </head>
     
-    <body>
+    <body class="index">
         <header>
             <h1> Green Energy Policy: Details and Benefits</h1>
         </header>
 
         <nav>
-            <p>
-                <a href="index.php">Home</a>        
+            <p id="nav-home">
+                <a href="index.php">Home</a>
+            </p>
+            <p id="nav-detail">
                 <a href="detail.php">Nuclear Energy</a>
+            </p>
+            <p id="nav-form">
                 <a href="form.php">Survey</a>
+            </p>
+            <p id="nav-about">
                 <a href="about.php">About</a>
             </p>
         </nav>
 
-        <main>
-            <figure>
+        <main id="index">
+            <figure class="rightFig">
                 <img alt="A wind turbine" src="../images/turbine.jpg">
-                <figcaption>An electricity-generating wind turbine</figcaption>
+                <figcaption>
+                    An electricity-generating wind turbine<br>
+                    <cite>Source: PXHere</cite>
+                </figcaption>
             </figure>
 
-            <section class="Types of green energy">
+            <section class="Types">
                 <h2>Types of Green Energy</h2>
                 <p>
                     There exist many varieties of green energy. Among the most prevalent
@@ -51,7 +59,7 @@
                 </ul>
             </section>
 
-            <section class="Drawbacks of traditional energy">
+            <section class="Drawbacks">
                 <h2>Drawbacks of Traditional Energy</h2>
                 <p>
                     As aforementioned, the most significant drawback to traditional, fossil-fuel energy sources
@@ -71,7 +79,7 @@
                 </table>
             </section>
 
-            <section class="Environmental benefits">
+            <section class="Environmental-benefits">
                 <h2>Environmental Benefits of Green Energy</h2>
                 <p>
                     Beyond reducing emissions, there are further environmental benefits of green energy.
@@ -82,7 +90,7 @@
                 </p>
             </section>
             
-            <section class="Cost benefits">
+            <section class="Cost-benefits">
                 <h2>Cost Benefits of Green Energy</h2>
                 <p>
                     While fossil fuels are very energy dense for the cost needed to extract them, green energy

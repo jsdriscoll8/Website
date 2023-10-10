@@ -1,0 +1,122 @@
+body {
+    display:grid;
+    width: 90%;
+}
+
+nav {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+
+/** About page grid **/
+
+#about {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto auto;
+    grid-template-areas: "img img about about"
+                         "why why why why"
+                         "action action action action";
+}
+
+#about figure {
+    grid-area: img;
+}
+
+#about .about {
+    grid-area: about;
+}
+
+#about .why {
+    grid-area: why;
+}
+
+#about .action {
+    grid-area: action;
+}
+
+/** Detail page grid **/ 
+
+#detail {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto auto auto;
+    grid-template-areas: "img img about about"
+                         "pros pros pros pros"
+                         "cons cons cons cons";
+}
+
+#detail figure {
+    grid-area: img;
+}
+
+#detail .about {
+    grid-area: about;
+}
+
+#detail .pros {
+    grid-area: pros;
+}
+
+#detail .cons {
+    grid-area: cons;
+}
+
+/** Form page grid **/
+
+#form {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto auto;
+    grid-template-areas: "img img per per"
+                         "int int inf inf";
+    gap: 1em 1em;
+    align-content: center;
+}
+
+#form figure {
+    grid-area: img;
+}
+
+#form .personalInfo {
+    grid-area: per;
+}
+
+#form .interestedCheckbox {
+    grid-area: int;
+}
+
+#form .informedRadio {
+    grid-area: inf;
+}
+
+/** Index page grid **/
+
+#index {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto auto;
+    grid-template-areas: "img img env env"
+                         "drawbacks drawbacks cost cost"
+                         "types types types types";
+}
+
+#index figure {
+    grid-area: img;
+}
+
+#index .Types {
+    grid-area: types;
+}
+
+#index .Drawbacks {
+    grid-area: drawbacks;
+}
+
+#index .Environmental-benefits {
+    grid-area: env;
+}
+
+#index .Cost-benefits {
+    grid-area: cost;
+}

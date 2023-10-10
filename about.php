@@ -9,28 +9,39 @@
         to helpful resources.">
 
         <link rel="stylesheet" href="css/custom.css?version=<?php print time(); ?>" type="text/css">
+        <link rel="stylesheet" href="css/layout-desktop.css?version=<?php print time(); ?>" type="text/css">
     </head>
 
-    <body>
+    <body class="exBottom">
         <header>
                 <h1>About Green Energy</h1>
         </header>
 
         <nav>
-            <p>
-                <a href="index.php">Home</a>        
+            <p id="nav-home">
+                <a href="index.php">Home</a>
+            </p>
+            <p id="nav-detail">
                 <a href="detail.php">Nuclear Energy</a>
+            </p>
+            <p id="nav-form">
                 <a href="form.php">Survey</a>
+            </p>
+            <p id="nav-about">
                 <a href="about.php">About</a>
             </p>
         </nav>
 
-        <main>
+        <main id="about">
+            <figure class="limHeight">
+                <img alt="Art representing green energy" src="images/greenEnergy.png" class="rightImg">
+                <figcaption>
+                    Green energy is important to the planet<br>
+                    <cite>Source:FreePNGimg</cite>
+                </figcaption>
+            </figure>
+
             <section class="about">
-                <figure>
-                    <figcaption class="rightCaption">Green energy is important to the planet</figcaption>
-                    <img alt="Art representing green energy" src="images/greenEnergy.png" class="rightImg">
-                </figure>
 
                 <h2>What is Green Energy?</h2>
                 <p>
@@ -62,6 +73,12 @@
             </section>
         </main>
 
+        <footer>
+            <p>
+                <a href="../sitemap.php">Sitemap</a>
+            </p>
+        </footer>
+
         <aside>
             <p> 
                 Helpful links:
@@ -72,11 +89,5 @@
                 </ul> 
             </p>
         </aside>
-
-        <footer>
-            <p>
-                <a href="../sitemap.php">Sitemap</a>
-            </p>
-        </footer>
     </body>
 </html>
