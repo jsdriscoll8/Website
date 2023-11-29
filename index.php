@@ -1,38 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <title>Green energy policies</title>
-        <meta name="author" content="John Driscoll">
-        <meta name ="description" content="A discussion of green energy policies
-            and trends that I believe would improve society, as well as detailing the drawbacks
-            of traditional energy sources. Topics include fossil fuels, nuclear energy, and cost
-            and efficiency comparisons.">
-
-        <link rel="stylesheet" href="css/custom.css?version=<?php print time(); ?>" type="text/css">
-        <link rel="stylesheet" href="css/layout-desktop.css?version=<?php print time(); ?>" type="text/css">
-    </head>
-    
-    <body class="index">
-        <header>
-            <h1> Green Energy Policy: Details and Benefits</h1>
-        </header>
-
-        <nav>
-            <p id="nav-home">
-                <a href="index.php">Home</a>
-            </p>
-            <p id="nav-detail">
-                <a href="detail.php">Nuclear Energy</a>
-            </p>
-            <p id="nav-form">
-                <a href="form.php">Survey</a>
-            </p>
-            <p id="nav-about">
-                <a href="about.php">About</a>
-            </p>
-        </nav>
-
+<?php
+include 'top.php';
+?>
         <main id="index">
             <figure class="rightFig">
                 <img alt="A wind turbine" src="../images/turbine.jpg">
@@ -68,13 +36,27 @@
                     carbon dioxide, methane, and other warming gases. While energy-dense, relatively cheap, and
                     plentifully available, fossil fuels heat the earth, thereby changing the climate.
                 </p>
+
                 <table>
                     <caption>United States electricity generation by source, 2021</caption>
                     <tr><th>Source</th><th>Share of total generation</th><th>+/- compared to 2020</th></tr>
-                    <tr><td>Zero carbon sources</td><td>39.4%</td><td>-0.3%</td></tr>
-                    <tr><td>Natural gas</td><td>38.3%</td><td>-2.3%</td></tr>
-                    <tr><td>Coal</td><td>21.8%</td><td>+2.5%</td></tr>
-                    <tr><td>Petroleum sources</td><td>0.5%</td><td>+0.0%</td></tr>
+
+                    <?php
+                    $sql = 'SELECT fldSource, fldShare, fldGainLoss FROM tblEnergyData ORDER BY fldShare DESC';
+                    $statement = $pdo->prepare($sql);
+                    $statement->execute();
+
+                    $records = $statement->fetchAll();
+
+                    foreach($records as $record) {
+                        print '<tr>';
+                        print '<td>' . $record['fldSource'] . '</td>';
+                        print '<td>' . $record['fldShare'] . '%</td>';
+                        print '<td>' . $record['fldGainLoss'] . '%</td>';
+                        print '</tr>' . PHP_EOL;
+                    }
+                    ?>
+
                     <tr><td colspan="3"><cite><a href="https://www.eia.gov/environment/emissions/carbon/">Source: U.S. Energy Information Administration</a></cite></td></tr>
                 </table>
             </section>
@@ -102,10 +84,8 @@
             </section>
         </main>
 
-        <footer>
-            <p>
-                <a href="../sitemap.php">Sitemap</a>
-            </p>
-        </footer> 
+        <?php
+        include 'footer.php';
+        ?> 
     </body> 
 </html>

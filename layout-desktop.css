@@ -5,7 +5,7 @@ body {
 
 nav {
     display: grid;
-    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-columns: 20% 20% 20% 20% 20%;
 }
 
 /** About page grid **/
@@ -13,10 +13,10 @@ nav {
 #about {
     display: grid;
     grid-template-columns: auto auto auto auto;
-    grid-template-rows: auto auto auto;
+    grid-template-rows: auto auto;
     grid-template-areas: "img img about about"
-                         "why why why why"
-                         "action action action action";
+                         "why why action action";
+    gap: 0em 2em; 
 }
 
 #about figure {
@@ -40,10 +40,10 @@ nav {
 #detail {
     display: grid;
     grid-template-columns: auto auto auto auto;
-    grid-template-rows: auto auto auto auto;
+    grid-template-rows: auto auto;
     grid-template-areas: "img img about about"
-                         "pros pros pros pros"
-                         "cons cons cons cons";
+                         "pros pros cons cons";
+    gap: 0em 2em;
 }
 
 #detail figure {
@@ -99,6 +99,7 @@ nav {
     grid-template-areas: "img img env env"
                          "drawbacks drawbacks cost cost"
                          "types types types types";
+    gap: 0em 2em;
 }
 
 #index figure {

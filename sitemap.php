@@ -108,6 +108,270 @@
         <h2> John Driscoll's Sitemap </h2>
 
         <section class="lab-layout">
+            <h2 class="header">Lab Nine - Saving a forms data.</h2>
+            <section class="public-files">
+                <h3>Public files</h3>
+                <p>
+                    <a href="lab9/about.php">About page</a>
+                </p>
+                <p>
+                    <a href="lab9/detail.php">Nuclear energy page</a>
+                </p>
+                <p>
+                    <a href="lab9/form.php">Form page</a>
+                </p>
+                <p>    
+                    <a href="lab9/index.php">Home page</a>
+                </p>
+                <p>    
+                    <a href="lab9/array.php">Array page</a>
+                </p>
+            </section>
+
+            <section class="supporting-files">
+                <h3>Supporting files</h3>
+                <p>
+                    <a href="lab9/css/custom.css">CSS Style Sheet</a>
+                </p>
+                <p>
+                    <a href="lab9/css/layout-desktop.css">Desktop Layout</a>
+                </p>
+                <p>
+                    <a href="lab9/css/layout-tablet.css">Tablet Layout</a>
+                </p>
+                <p>
+                    <a href="lab9/css/layout-phone.css">Phone Layout</a>
+                </p>
+                <p>
+                    <a href="lab9/images/phoneWireframe.jpg">Phone Wireframe</a>
+                </p>
+                <p>
+                    <a href="lab9/images/tabletWireframe.jpg">Tablet Wireframe</a>
+                </p>
+
+                <h3>Includes</h3>
+                <p>
+                    <a href="lab9/top.php">top.php</a>
+                </p>
+                <p>
+                    <a href="lab9/nav.php">nav.php</a>
+                </p>
+                <p>
+                    <a href="lab9/header.php">header.php</a>
+                </p>
+                <p>
+                    <a href="lab9/footer.php">footer.php</a>
+                </p>
+
+                <h3>Database</h3>
+                <p>
+                    <a href="lab9/database-connect.php">database-connect.php</a>
+                </p>
+                <p>
+                    <a href="lab9/images/screenShotRecords.png">Database Records</a>
+                </p>
+                <p>
+                    <a href="lab9/sql.php">sql.php</a>
+                </p>
+            </section>
+            <section class="grader-notes">
+                <h3> Notes to grader</h3>
+                <p>
+                    No errors when using file produced from inspecting the page source.
+                </p>
+            </section>
+        </section>
+
+        <section class="lab-layout">
+            <h2 class="header">Lab Eight - Database to display data.</h2>
+            <section class="public-files">
+                <h3>Public files</h3>
+                <p>
+                    <a href="lab8/about.php">About page</a>
+                </p>
+                <p>
+                    <a href="lab8/detail.php">Nuclear energy page</a>
+                </p>
+                <p>
+                    <a href="lab8/form.php">Form page</a>
+                </p>
+                <p>    
+                    <a href="lab8/index.php">Home page</a>
+                </p>
+                <p>    
+                    <a href="lab8/array.php">Array page</a>
+                </p>
+            </section>
+
+            <section class="supporting-files">
+                <h3>Supporting files</h3>
+                <p>
+                    <a href="lab8/css/custom.css">CSS Style Sheet</a>
+                </p>
+                <p>
+                    <a href="lab8/css/layout-desktop.css">Desktop Layout</a>
+                </p>
+                <p>
+                    <a href="lab8/css/layout-tablet.css">Tablet Layout</a>
+                </p>
+                <p>
+                    <a href="lab8/css/layout-phone.css">Phone Layout</a>
+                </p>
+                <p>
+                    <a href="lab8/images/phoneWireframe.jpg">Phone Wireframe</a>
+                </p>
+                <p>
+                    <a href="lab8/images/tabletWireframe.jpg">Tablet Wireframe</a>
+                </p>
+
+                <h3>Includes</h3>
+                <p>
+                    <a href="lab8/top.php">top.php</a>
+                </p>
+                <p>
+                    <a href="lab8/nav.php">nav.php</a>
+                </p>
+                <p>
+                    <a href="lab8/header.php">header.php</a>
+                </p>
+                <p>
+                    <a href="lab8/footer.php">footer.php</a>
+                </p>
+
+                <h3>Database</h3>
+                <p>
+                    <a href="lab8/database-connect.php">database-connect.php</a>
+                </p>
+                <p>
+                    <a href="lab8/images/screenShotRecords.png">Database Records</a>
+                </p>
+                <p>
+                    <a href="lab8/sql.php">sql.php</a>
+                </p>
+            </section>
+            <section class="grader-notes">
+                <h3> Notes to grader</h3>
+                <p>
+                    No errors when using file produced from inspecting the page source.
+                </p>
+            </section>
+        </section>
+
+        <section class="lab-layout">
+            <h2 class="header">Lab Seven - Includes and Arrays.</h2>
+            <section class="public-files">
+                <h3>Public files</h3>
+                <p>
+                    <a href="lab7/about.php">About page</a>
+                </p>
+                <p>
+                    <a href="lab7/detail.php">Nuclear energy page</a>
+                </p>
+                <p>
+                    <a href="lab7/form.php">Form page</a>
+                </p>
+                <p>    
+                    <a href="lab7/index.php">Home page</a>
+                </p>
+                <p>    
+                    <a href="lab7/array.php">Array page</a>
+                </p>
+            </section>
+
+            <section class="supporting-files">
+                <h3>Supporting files</h3>
+                <p>
+                    <a href="lab7/css/custom.css">CSS Style Sheet</a>
+                </p>
+                <p>
+                    <a href="lab7/css/layout-desktop.css">Desktop Layout</a>
+                </p>
+                <p>
+                    <a href="lab7/css/layout-tablet.css">Tablet Layout</a>
+                </p>
+                <p>
+                    <a href="lab7/css/layout-phone.css">Phone Layout</a>
+                </p>
+                <p>
+                    <a href="lab7/images/phoneWireframe.jpg">Phone Wireframe</a>
+                </p>
+                <p>
+                    <a href="lab7/images/tabletWireframe.jpg">Tablet Wireframe</a>
+                </p>
+
+                <h3>Includes</h3>
+                <p>
+                    <a href="lab7/top.php">top.php</a>
+                </p>
+                <p>
+                    <a href="lab7/nav.php">nav.php</a>
+                </p>
+                <p>
+                    <a href="lab7/header.php">header.php</a>
+                </p>
+                <p>
+                    <a href="lab7/footer.php">footer.php</a>
+                </p>
+            </section>
+
+            <section class="grader-notes">
+                <h3> Notes to grader</h3>
+                <p>
+                    No errors when using file produced from inspecting the page source.
+                </p>
+            </section>
+        </section>
+
+        <section class="lab-layout">
+            <h2 class="header">Lab Six - Responsive design.</h2>
+            <section class="public-files">
+                <h3>Public files</h3>
+                <p>
+                    <a href="lab6/about.php">About page</a>
+                </p>
+                <p>
+                    <a href="lab6/detail.php">Nuclear energy page</a>
+                </p>
+                <p>
+                    <a href="lab6/form.php">Form page</a>
+                </p>
+                <p>    
+                    <a href="lab6/index.php">Home page</a>
+                </p>
+            </section>
+
+            <section class="supporting-files">
+                <h3>Supporting files</h3>
+                <p>
+                    <a href="lab6/css/custom.css">CSS Style Sheet</a>
+                </p>
+                <p>
+                    <a href="lab6/css/layout-desktop.css">Desktop Layout</a>
+                </p>
+                <p>
+                    <a href="lab6/css/layout-tablet.css">Tablet Layout</a>
+                </p>
+                <p>
+                    <a href="lab6/css/layout-phone.css">Phone Layout</a>
+                </p>
+                <p>
+                    <a href="lab6/images/phoneWireframe.jpg">Phone Wireframe</a>
+                </p>
+                <p>
+                    <a href="lab6/images/tabletWireframe.jpg">Tablet Wireframe</a>
+                </p>
+            </section>
+
+            <section class="grader-notes">
+                <h3> Notes to grader</h3>
+                <p>
+                    Link elements in header as well as form PHP does not validation. Otherwise,
+                    no errors.
+                </p>
+            </section>
+        </section>
+
+        <section class="lab-layout">
             <h2 class="header">Lab Five - Even more styling.</h2>
             <section class="public-files">
                 <h3>Public files</h3>
@@ -246,8 +510,9 @@
             <section class="public-files">
                 <h3>Public files</h3>
                 <p>
-                    <a href="sample.php">sample.php</a><br>
-                    <a href="ADMIN/code-viewer.php">Admin Page</a>
+                    <a href="sample.php">sample.php</a><br />
+                    <a href="ADMIN/code-viewer.php">Admin Page</a><br />
+                    <a href="ADMIN/table-viewer.php?getDatabase=">Database Viewer</a>
                 </p>
             </section>
 

@@ -1,36 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <title>About green energy</title>
-        <meta name="author" content="John Driscoll">
-        <meta name ="description" content="About why green energy
-        is important, how it can improve our society, and links
-        to helpful resources.">
-
-        <link rel="stylesheet" href="css/custom.css?version=<?php print time(); ?>" type="text/css">
-        <link rel="stylesheet" href="css/layout-desktop.css?version=<?php print time(); ?>" type="text/css">
-    </head>
-
-    <body class="exBottom">
-        <header>
-                <h1>About Green Energy</h1>
-        </header>
-
-        <nav>
-            <p id="nav-home">
-                <a href="index.php">Home</a>
-            </p>
-            <p id="nav-detail">
-                <a href="detail.php">Nuclear Energy</a>
-            </p>
-            <p id="nav-form">
-                <a href="form.php">Survey</a>
-            </p>
-            <p id="nav-about">
-                <a href="about.php">About</a>
-            </p>
-        </nav>
+<?php
+include 'top.php';
+?>
 
         <main id="about">
             <figure class="limHeight">
@@ -73,21 +43,8 @@
             </section>
         </main>
 
-        <footer>
-            <p>
-                <a href="../sitemap.php">Sitemap</a>
-            </p>
-        </footer>
-
-        <aside>
-            <p> 
-                Helpful links:
-                <ul>
-                    <li><a href="https://www.twi-global.com/technical-knowledge/faqs/what-is-green-energy">What is green energy?</a></li>
-                    <li><a href="https://www.energy.gov/eere/renewable-energy">Office of Energy Efficiency & Renewable Energy</a></li>
-                    <li><a href="https://www.nationalgeographic.com/environment/article/renewable-energy">National Geographic - Renewable energy, explained</a></li>
-                </ul> 
-            </p>
-        </aside>
+        <?php
+        include 'footer.php';
+        ?>
     </body>
 </html>

@@ -187,3 +187,15 @@ body{
     margin: 0em;
     margin: auto;
 }
+
+a.activePage {
+    background-color: yellow;
+}
+
+.index li:hover {
+    background-color: white !important;
+}
+
+.index tr:hover {
+    background-color: white !important;
+}

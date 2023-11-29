@@ -1,36 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <title>Nuclear energy information</title>
-        <meta name="author" content="John Driscoll">
-        <meta name ="description" content="Information about the
-        technologies and processes of nuclear energy, as well as
-        its strengths and drawbacks.">
-
-        <link rel="stylesheet" href="css/custom.css?version=<?php print time(); ?>" type="text/css">
-        <link rel="stylesheet" href="css/layout-desktop.css?version=<?php print time(); ?>" type="text/css">
-    </head>
-
-    <body class="exBottom">
-        <header>
-            <h1>Nuclear Energy</h1>
-        </header>
-
-        <nav>
-            <p id="nav-home">
-                <a href="index.php">Home</a>
-            </p>
-            <p id="nav-detail">
-                <a href="detail.php">Nuclear Energy</a>
-            </p>
-            <p id="nav-form">
-                <a href="form.php">Survey</a>
-            </p>
-            <p id="nav-about">
-                <a href="about.php">About</a>
-            </p>
-        </nav>
+<?php
+include 'top.php';
+?>
 
         <main id="detail">
             <figure class="limHeight">
@@ -77,10 +47,8 @@
             </section>
         </main>
 
-        <footer>
-            <p>
-                <a href="../sitemap.php">Sitemap</a>
-            </p>
-        </footer>
+        <?php
+        include 'footer.php';
+        ?>
     </body>
 </html>

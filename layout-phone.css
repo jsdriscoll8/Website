@@ -1,0 +1,78 @@
+body {
+    grid-template-columns: 100%;
+    grid-template-rows: auto auto auto auto;
+    grid-template-areas: "h"
+                         "n"
+                         "m"
+                         "f";
+}
+
+header {
+    grid-area: h;
+}
+
+nav {
+    grid-area: n;
+}
+
+nav p {
+    font-size: medium;
+}
+
+main {
+    grid-area: m;
+}
+
+footer {
+    grid-area: f;
+}
+
+/** About page **/
+
+#about {
+    grid-template-columns: 100%;
+    grid-template-rows: auto auto auto auto;
+    grid-template-areas: "img"
+                         "about"
+                         "why"
+                         "action";
+}
+
+/** Detail page **/
+
+#detail {
+    grid-template-columns: 100%;
+    grid-template-rows: auto auto auto auto;
+    grid-template-areas: "img"
+                         "about"
+                         "pros"
+                         "cons";
+}
+
+/** Form page **/
+
+#form {
+    grid-template-columns: 100%;
+    grid-template-rows: auto auto auto auto;
+    grid-template-areas: "img"
+                         "per"
+                         "int"
+                         "inf";
+}
+
+/** Index page **/
+
+#index {
+    grid-template-columns: 100%;
+    grid-template-rows: auto auto auto auto auto;
+    grid-template-areas: "img"
+                         "env"
+                         "drawbacks"
+                         "cost"
+                         "types";
+}
+
+th, td {
+    padding: 0.5em;
+    font-size: smaller !important;
+}
